@@ -1,14 +1,13 @@
-﻿try
+﻿void CW(string msg)
 {
-  void CW(string msg)
-  {
-    Console.WriteLine(msg);
-  }
-  string CR()
-  {
-    return Console.ReadLine();
-  }
-
+  Console.WriteLine(msg);
+}
+string CR()
+{
+  return Console.ReadLine();
+}
+try
+{
   void existenceTriangle(double[] array, out string msg)
   {
     msg = array[0] > array[1] + array[2] ||
