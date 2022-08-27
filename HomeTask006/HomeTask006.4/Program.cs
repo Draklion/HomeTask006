@@ -21,7 +21,6 @@ try
   string Сalculator(double[] array, out string intersectionPoint)
   {
     double x = 0, y = 0;
-
     intersectionPoint = "";
     x = (array[2] - array[0]) / (array[1] - array[3]);
     y = array[1] * x + array[0];
